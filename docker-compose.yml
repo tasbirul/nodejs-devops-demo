@@ -1,5 +1,5 @@
 services:
   app:
-    image: ECR_REGISTRY/nodeapp:GITHUB_SHA
+    image: ECR_REGISTRY/noderepo:GITHUB_SHA
     ports:
       - "80:3000"
